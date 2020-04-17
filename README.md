@@ -1,9 +1,4 @@
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/MacOS/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/Windows/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/Ubuntu/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/Style/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/Install/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
-[![codecov](https://codecov.io/gh/xmake-io/ModernCppStarter/branch/master/graph/badge.svg)](https://codecov.io/gh/xmake-io/ModernCppStarter)
+[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/main/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
 
 # ModernCppStarter
 
@@ -17,7 +12,6 @@ This template is the result of learnings from many previous projects and should 
 - Separation into library and executable code
 - Integrated test suite
 - Continuous integration via [GitHub Actions](https://help.github.com/en/actions/)
-- Code coverage via [codecov](https://codecov.io)
 - Code formatting enforced by [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 - Reproducible dependency management via [xmake-repo](https://github.com/xmake-io/xmake-repo)
 - Support for [sanitizer tools and more](#additional-tools)
@@ -40,7 +34,8 @@ Feel free to replace the License with one suited for your project.
 Use the following command to build and run the executable target.
 
 ```bash
-xmake build standalone
+xmake 
+xmake run
 xmake run standalone --help
 ```
 
