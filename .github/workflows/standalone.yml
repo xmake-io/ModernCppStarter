@@ -17,5 +17,5 @@ jobs:
         xmake-version: latest
     - name: build
       run: |
-        xmake 
+        xmake -y
         xmake run
