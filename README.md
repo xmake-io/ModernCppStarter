@@ -1,4 +1,13 @@
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/build/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
+<div align="center">
+  <div>
+    <a href="https://github.com/xmake-io/ModernCppStarter/actions?query=workflow%3Abuild">
+      <img src="https://img.shields.io/github/workflow/status/xmake-io/ModernCppStarter/build/master.svg?style=flat-square" alt="github-ci" />
+    </a>
+    <a href="https://github.com/xmake-io/ModernCppStarter/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/xmake-io/ModernCppStarter.svg?colorB=f48041&style=flat-square" alt="license" />
+    </a>
+  </div>
+</div>
 
 # ModernCppStarter
 
