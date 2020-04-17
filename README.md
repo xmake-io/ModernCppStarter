@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/main/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
+[![Actions Status](https://github.com/xmake-io/ModernCppStarter/workflows/build/badge.svg)](https://github.com/xmake-io/ModernCppStarter/actions)
 
 # ModernCppStarter
 
