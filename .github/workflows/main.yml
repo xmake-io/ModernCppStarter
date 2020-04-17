@@ -1,4 +1,4 @@
-name: Standalone
+name: main
 
 on: [push]
 
