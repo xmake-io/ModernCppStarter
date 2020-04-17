@@ -10,11 +10,16 @@ set_version("1.0.1", {build = "%Y%m%d%H%M"})
 -- set warning all as error
 set_warnings("all", "error")
 
--- set language: c++17
-set_languages("c++17")
+-- set language: c++11
+set_languages("c++11")
 
 -- add build modes
 add_rules("mode.release", "mode.debug", "mode.profile", "mode.coverage")
+
+-- enable c++ exception
+if is_plat("windows") then
+    add_cxxflags("/EHsc")
+end
 
 -- define target: greeter
 target("greeter")
