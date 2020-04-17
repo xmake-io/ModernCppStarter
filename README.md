@@ -29,10 +29,9 @@ This template is the result of learnings from many previous projects and should 
 
 ### Adjust the template to your needs
 
-- Use this repo [as a template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and replace all occurrences of "Greeter" in the relevant CMakeLists.txt with the name of your project
+- Use this repo [as a template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and replace all occurrences of "Greeter" in the relevant xmake.lua with the name of your project
 - Replace the source files with your own
 - For single-header libraries: see the comments in [xmake.lua](xmake.lua)
-- Add your project's codecov token to your project's github secrets under `CODECOV_TOKEN`
 - Happy coding!
 
 Eventually, you can remove any unused files, such as the standalone directory or irrelevant github workflows for your project.
